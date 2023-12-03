@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giphy Party!</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>GIPHY PARTY</h1>
+
+    <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="Enter a search term">
+        <input type="button" value="Search Giphy!" onclick="searchGiphy()">
+        <button onclick="removeImages()">Remove Images</button>
+    </form>
+
+    <div id="gifContainer"></div>
+</body>
+</html>
+
+
